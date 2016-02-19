@@ -1,3 +1,17 @@
+/*main.java*/
+package quicksort;
+
+
+public class main {
+    
+    public static void main(String[] args)
+    {
+        int array[] ={54,26,93,17,77,31,44,55,20};
+        ordenador o = new ordenador();
+        o.quicksort(array);
+    }
+/*ordenador.java*/
+
 package quicksort;
 
 
@@ -42,3 +56,4 @@ public class ordenador {
         return numeros;
     }
 }
+
